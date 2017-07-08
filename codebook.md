@@ -1,4 +1,4 @@
-CODEBOOK
+CODEBOOK<br/>
 The script uses the following txt files
 1. features.txt -> List of all features is taken from this file
 2. activity_labels.txt -> Links the class labels with their activity name
