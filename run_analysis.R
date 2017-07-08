@@ -34,7 +34,7 @@ test_data <- cbind(Y_test,subject_test,X_test)
 merged_data <- rbind(training_data,test_data)
 
 #Step 2 - Extracting only the measurements on the mean and standard deviation for each measurement.
-mean_std <-merged_data[,grepl("mean|std|subject|activityId",colnames(merged_data))]
+mean_std <-merged_data[,grepl("mean|std|subject_id|activity_id",colnames(merged_data))]
 
 #Step 3 - Using descriptive activity names to name the activities in the data set
 library(plyr)
